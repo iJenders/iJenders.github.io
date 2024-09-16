@@ -1,0 +1,1 @@
+import{x as r,r as a,e as l,f as u,g as e,y as n,t as p,F as d}from"./index-CUz4EJi3.js";const g={__name:"NotFound",setup(f){const o=r(),s=a(o.path);return(m,t)=>(l(),u(d,null,[t[2]||(t[2]=e("h1",null,"404",-1)),e("h2",null,[t[0]||(t[0]=n("Page not found: ")),t[1]||(t[1]=e("br",null,null,-1)),n(p(s.value),1)])],64))}};export{g as default};
