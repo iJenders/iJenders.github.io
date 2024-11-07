@@ -29,6 +29,7 @@
 
 body {
     background: var(--background-primary);
+    padding: 64px 0px;
 }
 
 .Alert {
