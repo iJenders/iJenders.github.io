@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latinoamérica Viva</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="home">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="src/logo/logotipo.png" alt="Latinoamérica Viva">
+                </a>
+            </div>
+            <a id="nav-toggle" class="nav-toggle">≡</a>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="gastronomia.html">Gastronomía</a></li>
+                <li><a href="musica.html">Música y Danza</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-6"
+        style="background-image: url('src/img/contacto-fondo.jpg'); background-size: cover; background-position: center; position: relative;">
+        <div class="overlay"
+            style="position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(11, 29, 39, 0.7);">
+        </div>
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <h2 class="text-center mb-2">Envíanos tu Mensaje</h2>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Nombre y Apellido" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Asunto" required>
+                        <textarea placeholder="Mensaje" rows="5" required></textarea>
+                        <button type="submit" class="btn">¡Enviar Correo!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-5">
+        <div class="container">
+            <div class="newsletter-grid">
+                <div class="newsletter-image">
+                    <!-- Placeholder for newsletter image if any, or just text -->
+                    <img src="src/img/musica-genero-cumbia.jpg" alt="Únete" style="border-radius: 10px;">
+                </div>
+                <div class="newsletter-content">
+                    <h2>Únete a la Celebración</h2>
+                    <p class="mb-2">Suscríbete para recibir noticias exclusivas, recetas y los eventos culturales más
+                        importantes.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Nombre y Apellido" required>
+                        <button type="submit" class="btn">¡Suscribirse!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-social">
+                    <h3>Redes</h3>
+                    <div class="social-icons">
+                        <a href="#footer">
+                            <img src="src/logo/logo-facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#footer">
+                            <img src="src/logo/logo-instagram.png" alt="Instagram">
+                        </a>
+                        <a href="#footer">
+                            <img src="src/logo/logo-tiktok.png" alt="TikTok">
+                        </a>
+                        <a href="#footer">
+                            <img src="src/logo/logo-x.png" alt="X/Twitter">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p>📍 ejemplo@latinoamerica-viva.com</p>
+                    <p>📞 +58 410-000-0000</p>
+                    <p>📞 +58 420-000-0000</p>
+                </div>
+            </div>
+            <div class="text-center mt-2" style="margin-top: 2rem; font-size: 0.8rem; opacity: 0.7;">
+                <p>&copy; 2025 Latinoamérica Viva. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

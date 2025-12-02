@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latinoamérica Viva</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="home">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="src/logo/logotipo.png" alt="Latinoamérica Viva">
+                </a>
+            </div>
+            <a id="nav-toggle" class="nav-toggle">≡</a>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="gastronomia.html">Gastronomía</a></li>
+                <li><a href="musica.html">Música y Danza</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero"
+        style="background-image: linear-gradient(rgba(11, 29, 39, 0), rgba(11, 29, 39, 1)), url('./src/img/musica-danza-hero-1.jpg');">
+        <div class="hero-content container text-center">
+            <h1>Ritmos que Mueven</h1>
+            <p>
+                El ritmo es el pulso de Latinoamérica. Nuestros géneros musicales son el resultado
+                directo de un mestizaje sonoro: los potentes tambores africanos se fusionaron con las
+                melodías y cuerdas europeas, creando lenguajes universales como el Bolero y el Son.
+                Esta diversidad abarca desde la melancolía profunda del Tango en el Cono Sur hasta
+                la alegría contagiosa de la Salsa en el Caribe, demostrando que la música es, sin
+                duda, la manera más pura de contar nuestra historia.
+            </p>
+        </div>
+    </section>
+
+    <!-- Ritmos que Mueven -->
+    <section id="musica" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-2">Focos de Ritmo</h2>
+            <div class="rhythm-list">
+                <div class="rhythm-card">
+                    <img src="src/img/musica-genero-cumbia.jpg" alt="Cumbia">
+                    <div class="rhythm-content">
+                        <h4>Cumbia</h4>
+                        <p class="meta">País de Origen: Colombia</p>
+                        <p>Nacida en la costa Caribe, la Cumbia es el ritmo mestizo por excelencia, un diálogo entre las
+                            gaitas indígenas y los tambores africanos.</p>
+                    </div>
+                </div>
+                <div class="rhythm-card">
+                    <img src="src/img/musica-genero-salsa.jpg" alt="Salsa">
+                    <div class="rhythm-content">
+                        <h4>Salsa</h4>
+                        <p class="meta">País de Origen: Cuba / Puerto Rico</p>
+                        <p>Más que un ritmo, es un movimiento que combina el Son cubano, el Mambo y el Jazz. Vibrante y
+                            compleja.</p>
+                    </div>
+                </div>
+                <div class="rhythm-card">
+                    <img src="src/img/musica-genero-tango.jpg" alt="Tango">
+                    <div class="rhythm-content">
+                        <h4>Tango</h4>
+                        <p class="meta">País de Origen: Argentina / Uruguay</p>
+                        <p>Nacido en los arrabales portuarios, el Tango es la danza de la melancolía y la pasión.</p>
+                    </div>
+                </div>
+                <div class="rhythm-card">
+                    <img src="src/img/musica-genero-samba.jpg" alt="Samba">
+                    <div class="rhythm-content">
+                        <h4>Samba</h4>
+                        <p class="meta">País de Origen: Brasil</p>
+                        <p>El alma del Carnaval, la Samba es un ritmo africano-brasileño de percusión frenética y
+                            contagiosa.</p>
+                    </div>
+                </div>
+                <div class="rhythm-card">
+                    <img src="src/img/musica-genero-joropo.jpg" alt="Joropo">
+                    <div class="rhythm-content">
+                        <h4>Joropo</h4>
+                        <p class="meta">País de Origen: Venezuela</p>
+                        <p>Considerado el baile nacional de Venezuela, el Joropo es una fiesta de zapateo vibrante y
+                            elegancia campesina.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-social">
+                    <h3>Redes</h3>
+                    <div class="social-icons">
+                        <a href="#footer">
+                            <img src="src/logo/logo-facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#footer">
+                            <img src="src/logo/logo-instagram.png" alt="Instagram">
+                        </a>
+                        <a href="#footer">
+                            <img src="src/logo/logo-tiktok.png" alt="TikTok">
+                        </a>
+                        <a href="#footer">
+                            <img src="src/logo/logo-x.png" alt="X/Twitter">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p>📍 ejemplo@latinoamerica-viva.com</p>
+                    <p>📞 +58 410-000-0000</p>
+                    <p>📞 +58 420-000-0000</p>
+                </div>
+            </div>
+            <div class="text-center mt-2" style="margin-top: 2rem; font-size: 0.8rem; opacity: 0.7;">
+                <p>&copy; 2025 Latinoamérica Viva. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latinoamérica Viva</title>
+    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="home">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="src/logo/logotipo.png" alt="Latinoamérica Viva">
+                </a>
+            </div>
+            <a id="nav-toggle" class="nav-toggle">≡</a>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="gastronomia.html">Gastronomía</a></li>
+                <li><a href="musica.html">Música y Danza</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero"
+        style="background-image: linear-gradient(rgba(11, 29, 39, 0), rgba(11, 29, 39, 1)), url('./src/img/home-hero.jpg');">
+        <div class="hero-content container text-center">
+            <h1>Latinoamérica Viva.<br>Un Continente de Culturas</h1>
+            <p>
+                Explora la vibrante variedad de ritmos, sabores e
+                historias que definen a nuestros pueblos. Desde los
+                Andes hasta el Caribe
+            </p>
+            <a href="#culturas" class="btn">Explorar ahora</a>
+        </div>
+    </section>
+
+    <!-- Culturas en Foco -->
+    <section id="culturas" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-1">Culturas en Foco</h2>
+            <p class="text-center mb-2">La Riqueza de Nuestra América: Expresiones que Resuenan en el Mundo.</p>
+            <div class="grid-3">
+                <a href="gastronomia.html" class="card">
+                    <img src="src/img/home-card-quinua.jpg" alt="El Lienzo de la Forma">
+                    <div class="card-content">
+                        <h3>El misterio de la Quinua</h3>
+                        <p>Gastronomía Andina</p>
+                    </div>
+                </a>
+                <a href="musica.html" class="card">
+                    <img src="src/img/home-card-musica.jpg" alt="Telares del Sur del Tiempo">
+                    <div class="card-content">
+                        <h3>Bailando al Son del Tambor</h3>
+                        <p>Música Caribeña</p>
+                    </div>
+                </a>
+                <a href="#arquitectura" class="card">
+                    <img src="src/img/home-card-arquitectura.jpg" alt="Arquitectura Viva">
+                    <div class="card-content">
+                        <h3>Arquitectura Viva</h3>
+                        <p>Estructuras que Cuentan Historias</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- El Lienzo de la Construcción -->
+    <section id="arquitectura" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-1">El Lienzo de la Construcción</h2>
+            <p class="text-center mb-2">La Grandeza de los Estilos Arquitectónicos que Marcan Nuestra Historia</p>
+
+
+            <!-- Swiper -->
+
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./src/img/catedral-de-nuestra-sennora-del-carmen.png" />
+                        <div class="info">
+                            <h3>Catedral de Nuestra Señora del Carmen (Lara, Venezuela)</h3>
+                            <p>Es un emblema de la arquitectura moderna que rompe con la tradición eclesiástica. Su
+                                diseño adopta la forma de un paraboloide hiperbólico con dos alas unidas a través de una
+                                torre central, creando la imagen de una flor invertida. Culturalmente, esta estructura
+                                es un testimonio de ingeniería avanzada para su época, con su techo sostenido por una
+                                red de cables de acero postensados y recubiertos de concreto. Su significado histórico
+                                se remonta al templo original, destruido por el terremoto de 1812. Cada 14 de enero, se
+                                convierte en el epicentro de la fe al acoger la multitudinaria procesión de la Divina
+                                Pastora, la patrona del estado Lara.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/catedral-metropolitana-cdmx.jpg" />
+                        <div class="info">
+                            <h3>Catedral Metropolitana de la Asunción de María (Ciudad de México, México)</h3>
+                            <p>Es la catedral más grande de América Latina, habiéndose construido a lo largo de casi 250
+                                años (1573-1813). Arquitectónicamente, es un compendio de estilos que van del Gótico y
+                                el Renacimiento, al exuberante Barroco churrigueresco (visible en el Altar de los
+                                Reyes). Su significado histórico es inmenso, al albergar las criptas de arzobispos y los
+                                restos de figuras clave de la independencia, mientras que el desafío técnico de su
+                                construcción sobre el lecho inestable del antiguo lago de Texcoco la convierte en un
+                                símbolo de la resiliencia ingenieril.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/iglesia-de-san-francisco-quito.jpg" />
+                        <div class="info">
+                            <h3>Iglesia de San Francisco (Quito, Ecuador)</h3>
+                            <p>Es un ícono cultural y arquitectónico de América Latina. Construída a lo largo de 150
+                                años, es una galería de arte en sí misma,
+                                albergando una impresionante colección de más de 3.500 objetos de los siglos XVI al
+                                XVIII. su historia está entrelazada con
+                                leyendas locales como la de Cantuña, lo que cimenta su estatus como símbolo de la
+                                identidad cultural quiteña.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/quinta-anauco.jpg" />
+                        <div class="info">
+                            <h3>Quinta de Anauco (Caracas, Venezuela)</h3>
+                            <p>Es una joya cultural que funciona como el Museo de Arte Colonial. Este edificio,
+                                construido a finales del siglo XVIII, es ofrece
+                                una ventana a al ambiente campestre de la élite caraqueña durante la época colonial.
+                                Destaca culturalmente porque
+                                preservó la herencia artística de ese período. su significado histórico se potencia al
+                                haber servido como residencia temporal
+                                del Libertador Simón Bolívar</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/iglesia-de-cristo-obrero.jpg" />
+                        <div class="info">
+                            <h3>Iglesia de Cristo Obrero y Nuestra Señora de Lourdes (Atlántida, Uruguay)</h3>
+                            <p>Es una obra maestra de la arquitectura moderna latinoamericana. Construida entre 1958 y
+                                1960 por el ingeniero Eladio Dieste, esta iglesia es famosa mundialmente por el uso de
+                                la cerámica armada, una técnica que emplea ladrillos para crear bóvedas y paredes de
+                                forma ondulada y autoportante. Culturalmente, Dieste buscó una arquitectura auténtica y
+                                económica, elevando un material humilde como el ladrillo a su máxima expresión estética.
+                                Su diseño se destaca por su lenguaje expresivo. Su valor histórico y arquitectónico fue
+                                reconocido en 2021 al ser catalogada como Patrimonio de la Humanidad por la UNESCO.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./src/img/catedral-de-nuestra-sennora-del-carmen.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/catedral-metropolitana-cdmx.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/iglesia-de-san-francisco-quito.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/quinta-anauco.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./src/img/iglesia-de-cristo-obrero.jpg" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Swiper JS -->
+            <script src="./src/script/swiper-bundle.min.js"></script>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 16,
+                    slidesPerView: "auto",
+                    freeMode: true,
+                    watchSlidesProgress: true,
+                    //grab
+                    grabCursor: true,
+                });
+                var swiper2 = new Swiper(".mySwiper2", {
+                    spaceBetween: 0,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    thumbs: {
+                        swiper: swiper,
+                    },
+                });
+            </script>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-5">
+        <div class="container">
+            <div class="newsletter-grid">
+                <div class="newsletter-image">
+                    <!-- Placeholder for newsletter image if any, or just text -->
+                    <img src="src/img/contacto-suscripcion.png" alt="Únete">
+                </div>
+                <div class="newsletter-content">
+                    <h2>¿Dudas o sugerencias?</h2>
+                    <p class="mb-2">¡Queremos escucharte! Contáctanos para
+                        compartir tu historia cultural, enviar tus recetas,
+                        proponer nuevos ritmos o ayudarnos a mejorar
+                        el sitio.</p>
+                    <form class="newsletter-form">
+                        <a href="contacto.html" class="btn" style="padding: 10px 50px">Contacto</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-social">
+                    <h3>Redes</h3>
+                    <div class="social-icons">
+                        <a href="#footer">
+                            <img src="src/logo/logo-facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#footer">
+                            <img src="src/logo/logo-instagram.png" alt="Instagram">
+                        </a>
+                        <a href="#footer">
+                            <img src="src/logo/logo-tiktok.png" alt="TikTok">
+                        </a>
+                        <a href="#footer">
+                            <img src="src/logo/logo-x.png" alt="X/Twitter">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p>📍 ejemplo@latinoamerica-viva.com</p>
+                    <p>📞 +58 410-000-0000</p>
+                    <p>📞 +58 420-000-0000</p>
+                </div>
+            </div>
+            <div class="text-center mt-2" style="margin-top: 2rem; font-size: 0.8rem; opacity: 0.7;">
+                <p>&copy; 2025 Latinoamérica Viva. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
